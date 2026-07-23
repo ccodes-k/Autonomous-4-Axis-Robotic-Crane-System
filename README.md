@@ -1,12 +1,10 @@
 # Autonomous-4-Axis-Robotic-Crane-System
 
----
 
 ## Overview
 
 A third-party logistics workflow needed a safer and more repeatable way to perform side pallet-loading while accounting for changing box sizes, cage occupancy, and available loading space. 
 
----
 
 ### Idea
  - Designed the ROS 2 software architecture for an autonomous 4-axis robotic crane workflow.
