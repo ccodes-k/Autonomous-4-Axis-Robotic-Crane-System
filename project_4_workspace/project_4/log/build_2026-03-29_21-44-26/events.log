@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (project_4) JobQueued: {'identifier': 'project_4', 'dependencies': OrderedDict()}
+[0.001020] (project_4) JobStarted: {'identifier': 'project_4'}
+[0.099595] (-) TimerEvent: {}
+[0.200085] (-) TimerEvent: {}
+[0.300527] (-) TimerEvent: {}
+[0.401109] (-) TimerEvent: {}
+[0.502158] (-) TimerEvent: {}
+[0.602651] (-) TimerEvent: {}
+[0.703061] (-) TimerEvent: {}
+[0.803438] (-) TimerEvent: {}
+[0.903929] (-) TimerEvent: {}
+[1.004393] (-) TimerEvent: {}
+[1.104737] (-) TimerEvent: {}
+[1.183293] (project_4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/project_4', 'build', '--build-base', '/home/ros2/project_4/build/project_4/build', 'install', '--record', '/home/ros2/project_4/build/project_4/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2/project_4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '192.168.1.2 55096 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2/project_4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ros2/project_4/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_SG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ros2/project_4/install/project_4', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ros2/project_4/build/project_4', 'SSH_CONNECTION': '192.168.1.2 55096 192.168.1.195 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/project_4/build/project_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/project_4/install/project_4/lib/python3.10/site-packages:/home/ros2/project_4/install/project_4/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.204861] (-) TimerEvent: {}
+[1.305337] (-) TimerEvent: {}
+[1.405849] (-) TimerEvent: {}
+[1.475789] (project_4) StderrLine: {'line': b"/home/ros2/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.476253] (project_4) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.505913] (-) TimerEvent: {}
+[1.606217] (-) TimerEvent: {}
+[1.638602] (project_4) StdoutLine: {'line': b'running egg_info\n'}
+[1.665339] (project_4) StdoutLine: {'line': b'creating build/project_4/project_4.egg-info\n'}
+[1.665665] (project_4) StdoutLine: {'line': b'writing build/project_4/project_4.egg-info/PKG-INFO\n'}
+[1.666525] (project_4) StdoutLine: {'line': b'writing dependency_links to build/project_4/project_4.egg-info/dependency_links.txt\n'}
+[1.666945] (project_4) StdoutLine: {'line': b'writing entry points to build/project_4/project_4.egg-info/entry_points.txt\n'}
+[1.667257] (project_4) StdoutLine: {'line': b'writing requirements to build/project_4/project_4.egg-info/requires.txt\n'}
+[1.667445] (project_4) StdoutLine: {'line': b'writing top-level names to build/project_4/project_4.egg-info/top_level.txt\n'}
+[1.667670] (project_4) StdoutLine: {'line': b"writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'\n"}
+[1.706296] (-) TimerEvent: {}
+[1.724538] (project_4) StdoutLine: {'line': b"reading manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'\n"}
+[1.726399] (project_4) StdoutLine: {'line': b"writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'\n"}
+[1.726752] (project_4) StdoutLine: {'line': b'running build\n'}
+[1.726906] (project_4) StdoutLine: {'line': b'running build_py\n'}
+[1.727281] (project_4) StdoutLine: {'line': b'creating /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.727720] (project_4) StdoutLine: {'line': b'copying project_4/zed_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.728062] (project_4) StdoutLine: {'line': b'copying project_4/common.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.728418] (project_4) StdoutLine: {'line': b'copying project_4/status_led_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.728694] (project_4) StdoutLine: {'line': b'copying project_4/monitor_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.728978] (project_4) StdoutLine: {'line': b'copying project_4/moonraker_box_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.729246] (project_4) StdoutLine: {'line': b'copying project_4/__init__.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.729484] (project_4) StdoutLine: {'line': b'copying project_4/planner.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.729749] (project_4) StdoutLine: {'line': b'copying project_4/box_compare_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.730018] (project_4) StdoutLine: {'line': b'copying project_4/motion_api.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.730287] (project_4) StdoutLine: {'line': b'copying project_4/mission_controller_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.730599] (project_4) StdoutLine: {'line': b'copying project_4/safety_camera_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4\n'}
+[1.731303] (project_4) StdoutLine: {'line': b'running install\n'}
+[1.738397] (project_4) StdoutLine: {'line': b'running install_lib\n'}
+[1.765729] (project_4) StdoutLine: {'line': b'creating /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.765967] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/zed_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.766249] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/common.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.766521] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/status_led_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.766772] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/monitor_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.767026] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/moonraker_box_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.767272] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/__init__.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.767509] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/planner.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.767797] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/box_compare_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.768061] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/motion_api.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.768286] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/mission_controller_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.768565] (project_4) StdoutLine: {'line': b'copying /home/ros2/project_4/build/project_4/build/lib/project_4/safety_camera_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4\n'}
+[1.769603] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/zed_node.py to zed_node.cpython-310.pyc\n'}
+[1.771467] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/common.py to common.cpython-310.pyc\n'}
+[1.773106] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/status_led_node.py to status_led_node.cpython-310.pyc\n'}
+[1.774504] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/monitor_node.py to monitor_node.cpython-310.pyc\n'}
+[1.776272] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/moonraker_box_node.py to moonraker_box_node.cpython-310.pyc\n'}
+[1.777097] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/__init__.py to __init__.cpython-310.pyc\n'}
+[1.777467] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/planner.py to planner.cpython-310.pyc\n'}
+[1.778527] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/box_compare_node.py to box_compare_node.cpython-310.pyc\n'}
+[1.779492] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/motion_api.py to motion_api.cpython-310.pyc\n'}
+[1.780631] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/mission_controller_node.py to mission_controller_node.cpython-310.pyc\n'}
+[1.785354] (project_4) StdoutLine: {'line': b'byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/safety_camera_node.py to safety_camera_node.cpython-310.pyc\n'}
+[1.787434] (project_4) StdoutLine: {'line': b'running install_data\n'}
+[1.787881] (project_4) StdoutLine: {'line': b'creating /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages\n'}
+[1.788279] (project_4) StdoutLine: {'line': b'copying resource/project_4 -> /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages\n'}
+[1.788650] (project_4) StdoutLine: {'line': b'copying package.xml -> /home/ros2/project_4/install/project_4/share/project_4\n'}
+[1.788951] (project_4) StdoutLine: {'line': b'creating /home/ros2/project_4/install/project_4/share/project_4/launch\n'}
+[1.789148] (project_4) StdoutLine: {'line': b'copying launch/monitor.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch\n'}
+[1.789426] (project_4) StdoutLine: {'line': b'copying launch/full_system.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch\n'}
+[1.789714] (project_4) StdoutLine: {'line': b'creating /home/ros2/project_4/install/project_4/share/project_4/config\n'}
+[1.789912] (project_4) StdoutLine: {'line': b'copying config/boxes.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config\n'}
+[1.790171] (project_4) StdoutLine: {'line': b'copying config/workspace.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config\n'}
+[1.790365] (project_4) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.806388] (-) TimerEvent: {}
+[1.820336] (project_4) StdoutLine: {'line': b'Copying build/project_4/project_4.egg-info to /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4-0.0.1-py3.10.egg-info\n'}
+[1.822025] (project_4) StdoutLine: {'line': b'running install_scripts\n'}
+[1.880743] (project_4) StdoutLine: {'line': b'Installing box_compare_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.881040] (project_4) StdoutLine: {'line': b'Installing mission_controller_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.881260] (project_4) StdoutLine: {'line': b'Installing monitor_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.881468] (project_4) StdoutLine: {'line': b'Installing moonraker_box_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.881676] (project_4) StdoutLine: {'line': b'Installing safety_camera_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.881884] (project_4) StdoutLine: {'line': b'Installing status_led_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.882094] (project_4) StdoutLine: {'line': b'Installing zed_node script to /home/ros2/project_4/install/project_4/lib/project_4\n'}
+[1.883029] (project_4) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/project_4/build/project_4/install.log'\n"}
+[1.906517] (-) TimerEvent: {}
+[1.942809] (project_4) CommandEnded: {'returncode': 0}
+[1.988637] (project_4) JobEnded: {'identifier': 'project_4', 'rc': 0}
+[1.992468] (-) EventReactorShutdown: {}

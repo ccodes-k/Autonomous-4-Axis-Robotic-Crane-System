@@ -1,0 +1,72 @@
+/home/ros2/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating build/project_4/project_4.egg-info
+writing build/project_4/project_4.egg-info/PKG-INFO
+writing dependency_links to build/project_4/project_4.egg-info/dependency_links.txt
+writing entry points to build/project_4/project_4.egg-info/entry_points.txt
+writing requirements to build/project_4/project_4.egg-info/requires.txt
+writing top-level names to build/project_4/project_4.egg-info/top_level.txt
+writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+reading manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/zed_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/common.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/status_led_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/monitor_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/moonraker_box_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/__init__.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/planner.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/box_compare_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/motion_api.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/mission_controller_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+copying project_4/safety_camera_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+running install
+running install_lib
+creating /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/zed_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/common.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/status_led_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/monitor_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/moonraker_box_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/__init__.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/planner.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/box_compare_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/motion_api.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/mission_controller_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+copying /home/ros2/project_4/build/project_4/build/lib/project_4/safety_camera_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/zed_node.py to zed_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/common.py to common.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/status_led_node.py to status_led_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/monitor_node.py to monitor_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/moonraker_box_node.py to moonraker_box_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/planner.py to planner.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/box_compare_node.py to box_compare_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/motion_api.py to motion_api.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/mission_controller_node.py to mission_controller_node.cpython-310.pyc
+byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/safety_camera_node.py to safety_camera_node.cpython-310.pyc
+running install_data
+creating /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages
+copying resource/project_4 -> /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/project_4/install/project_4/share/project_4
+creating /home/ros2/project_4/install/project_4/share/project_4/launch
+copying launch/monitor.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch
+copying launch/full_system.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch
+creating /home/ros2/project_4/install/project_4/share/project_4/config
+copying config/boxes.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config
+copying config/workspace.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config
+running install_egg_info
+Copying build/project_4/project_4.egg-info to /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4-0.0.1-py3.10.egg-info
+running install_scripts
+Installing box_compare_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing mission_controller_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing monitor_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing moonraker_box_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing safety_camera_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing status_led_node script to /home/ros2/project_4/install/project_4/lib/project_4
+Installing zed_node script to /home/ros2/project_4/install/project_4/lib/project_4
+writing list of installed files to '/home/ros2/project_4/build/project_4/install.log'

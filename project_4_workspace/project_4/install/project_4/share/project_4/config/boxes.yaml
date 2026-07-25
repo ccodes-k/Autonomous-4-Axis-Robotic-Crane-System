@@ -1,0 +1,21 @@
+boxes:
+  BOX_SMALL:
+    length_mm: 200.0
+    width_mm: 150.0
+    height_mm: 100.0
+    eof_open_mm: 170.0
+    eof_close_mm: 145.0
+
+  BOX_MEDIUM:
+    length_mm: 300.0
+    width_mm: 220.0
+    height_mm: 150.0
+    eof_open_mm: 240.0
+    eof_close_mm: 215.0
+
+  BOX_LARGE:
+    length_mm: 400.0
+    width_mm: 300.0
+    height_mm: 200.0
+    eof_open_mm: 320.0
+    eof_close_mm: 295.0

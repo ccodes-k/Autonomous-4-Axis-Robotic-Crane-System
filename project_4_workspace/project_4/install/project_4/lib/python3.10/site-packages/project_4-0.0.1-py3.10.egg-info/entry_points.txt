@@ -1,0 +1,8 @@
+[console_scripts]
+box_compare_node = project_4.box_compare_node:main
+mission_controller_node = project_4.mission_controller_node:main
+monitor_node = project_4.monitor_node:main
+moonraker_box_node = project_4.moonraker_box_node:main
+safety_camera_node = project_4.safety_camera_node:main
+status_led_node = project_4.status_led_node:main
+zed_node = project_4.zed_node:main

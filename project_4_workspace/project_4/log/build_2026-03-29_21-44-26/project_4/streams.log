@@ -1,0 +1,74 @@
+[1.185s] Invoking command in '/home/ros2/project_4': PYTHONPATH=/home/ros2/project_4/build/project_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/project_4/install/project_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_4 build --build-base /home/ros2/project_4/build/project_4/build install --record /home/ros2/project_4/build/project_4/install.log --single-version-externally-managed install_data
+[1.475s] /home/ros2/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[1.475s]   warnings.warn(msg)
+[1.638s] running egg_info
+[1.664s] creating build/project_4/project_4.egg-info
+[1.665s] writing build/project_4/project_4.egg-info/PKG-INFO
+[1.665s] writing dependency_links to build/project_4/project_4.egg-info/dependency_links.txt
+[1.666s] writing entry points to build/project_4/project_4.egg-info/entry_points.txt
+[1.666s] writing requirements to build/project_4/project_4.egg-info/requires.txt
+[1.666s] writing top-level names to build/project_4/project_4.egg-info/top_level.txt
+[1.667s] writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+[1.723s] reading manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+[1.725s] writing manifest file 'build/project_4/project_4.egg-info/SOURCES.txt'
+[1.726s] running build
+[1.726s] running build_py
+[1.726s] creating /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.727s] copying project_4/zed_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.727s] copying project_4/common.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.727s] copying project_4/status_led_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.728s] copying project_4/monitor_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.728s] copying project_4/moonraker_box_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.728s] copying project_4/__init__.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.728s] copying project_4/planner.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.729s] copying project_4/box_compare_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.729s] copying project_4/motion_api.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.729s] copying project_4/mission_controller_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.729s] copying project_4/safety_camera_node.py -> /home/ros2/project_4/build/project_4/build/lib/project_4
+[1.730s] running install
+[1.737s] running install_lib
+[1.765s] creating /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.765s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/zed_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.765s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/common.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.765s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/status_led_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.766s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/monitor_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.766s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/moonraker_box_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.766s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/__init__.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.766s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/planner.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.767s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/box_compare_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.767s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/motion_api.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.767s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/mission_controller_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.767s] copying /home/ros2/project_4/build/project_4/build/lib/project_4/safety_camera_node.py -> /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4
+[1.768s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/zed_node.py to zed_node.cpython-310.pyc
+[1.770s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/common.py to common.cpython-310.pyc
+[1.772s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/status_led_node.py to status_led_node.cpython-310.pyc
+[1.773s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/monitor_node.py to monitor_node.cpython-310.pyc
+[1.775s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/moonraker_box_node.py to moonraker_box_node.cpython-310.pyc
+[1.776s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/__init__.py to __init__.cpython-310.pyc
+[1.776s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/planner.py to planner.cpython-310.pyc
+[1.777s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/box_compare_node.py to box_compare_node.cpython-310.pyc
+[1.778s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/motion_api.py to motion_api.cpython-310.pyc
+[1.780s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/mission_controller_node.py to mission_controller_node.cpython-310.pyc
+[1.784s] byte-compiling /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4/safety_camera_node.py to safety_camera_node.cpython-310.pyc
+[1.786s] running install_data
+[1.787s] creating /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages
+[1.787s] copying resource/project_4 -> /home/ros2/project_4/install/project_4/share/ament_index/resource_index/packages
+[1.788s] copying package.xml -> /home/ros2/project_4/install/project_4/share/project_4
+[1.788s] creating /home/ros2/project_4/install/project_4/share/project_4/launch
+[1.788s] copying launch/monitor.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch
+[1.788s] copying launch/full_system.launch.py -> /home/ros2/project_4/install/project_4/share/project_4/launch
+[1.789s] creating /home/ros2/project_4/install/project_4/share/project_4/config
+[1.789s] copying config/boxes.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config
+[1.789s] copying config/workspace.yaml -> /home/ros2/project_4/install/project_4/share/project_4/config
+[1.789s] running install_egg_info
+[1.819s] Copying build/project_4/project_4.egg-info to /home/ros2/project_4/install/project_4/lib/python3.10/site-packages/project_4-0.0.1-py3.10.egg-info
+[1.821s] running install_scripts
+[1.880s] Installing box_compare_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.880s] Installing mission_controller_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.880s] Installing monitor_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.880s] Installing moonraker_box_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.881s] Installing safety_camera_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.881s] Installing status_led_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.881s] Installing zed_node script to /home/ros2/project_4/install/project_4/lib/project_4
+[1.882s] writing list of installed files to '/home/ros2/project_4/build/project_4/install.log'
+[1.942s] Invoked command in '/home/ros2/project_4' returned '0': PYTHONPATH=/home/ros2/project_4/build/project_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/project_4/install/project_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/project_4 build --build-base /home/ros2/project_4/build/project_4/build install --record /home/ros2/project_4/build/project_4/install.log --single-version-externally-managed install_data

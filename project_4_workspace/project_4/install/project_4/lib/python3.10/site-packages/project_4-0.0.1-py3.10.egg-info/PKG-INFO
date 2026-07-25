@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: project_4
+Version: 0.0.1
+Summary: Project 4 ROS2 camera and Moonraker monitor
+Maintainer: ros2
+Maintainer-email: ros2@todo.todo
+License: TODO
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary
